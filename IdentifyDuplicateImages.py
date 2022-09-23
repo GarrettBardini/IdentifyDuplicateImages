@@ -4,7 +4,7 @@
 #####     CREATE_DATE: 2022/09/15                         #####
 #####     LAST_MODIFIED: 2022/09/22                       #####
 ###############################################################
-# FIX HOW YOU NAME YOUR VARS # 
+# FIX HOW YOU NAME YOUR VARS # Camel Case or Snake Case
 import os
 import time
 import hashlib
@@ -57,4 +57,4 @@ for folder in FolderList:
             os.rmdir(path)
 
 execution_time = (time.time() - start_time)
-print('Executed in: ' + execution_time + '  seconds.') 
+print('Executed in: ' + str(execution_time) + '  seconds.') 
